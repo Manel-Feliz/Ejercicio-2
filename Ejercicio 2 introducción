@@ -1,0 +1,49 @@
+
+variable numeroIf = 2;
+
+ if (numeroIf == 0) {
+    imprimir "0 es neutro"
+ }
+ if (numeroIf > 0) {
+    imprimir "positivo"
+ }
+if (numeroIf < 0) {
+    imprimir "negativo"
+}
+
+variable numeroWhile = 1;
+
+While (numeroWhile < 3) {
+    numeroWhile++;
+    imprimir numeroWhile
+}
+
+Do { imprimir numeroWhile
+    numeroWhile++;
+} while (numeroWhile < 3);
+
+variable numeroFor = 0;
+
+for (numeroFor = 0; numeroFor <= 3; numeroFor++) {
+    imprmir numeroFor.
+}
+
+variable estacion = verano
+
+switch (estacion) {
+  case verano:
+    imprimir "es verano";
+    break;
+  case primavera:
+    imprimir "es primavera";
+    break;
+  case otoño:
+    imprimir "es otoño";
+    break;
+    case invierno:
+    imprimir "es invierno"
+    break;
+  default:
+    imprimir "se debe introducir una estación del año"
+    break;
+}
